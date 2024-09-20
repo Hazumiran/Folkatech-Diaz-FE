@@ -5,6 +5,9 @@ import Home from './layout/Home';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+console.error = () => { };
+console.warn = () => { };
+console.log = () => { };
 function App() {
   return (
     <div className="App">
